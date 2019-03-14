@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Lobster" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+    </head>
+<style>
+.center { text-align: center; }
+.inco { font-family: Inconsolata; }
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+.clearfix { overflow: auto; }
+.padding { 
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.pt { 
+  font-family: PT Sans Narrow; 
+  font-size: 20px;
+}
+@media screen and (max-width: 600px) {
+  .column.left, .column.right {
+    width: 100%;
+  }
+}
+.column {
+  float: left;
+  padding: 15px;
+}
+.column.left { width: 60%; }
+.column.right { width: 40%; }
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+  <body>
+    <div class="container">
+      <div class="jumbotron center">
+          <h1 class="inco"> Martin Luther King, Jr.</h1>
+      </div>
+    </div>
+      
+    <div id="caro" class="carousel slide center padding" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#caro" data-slide-to="0" class="active"></li>
+        <li data-target="#caro" data-slide-to="1"></li>
+        <li data-target="#caro" data-slide-to="2"></li>
+        <li data-target="#caro" data-slide-to="3"></li>
+      </ul>
+      
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/mlk bw.jpg" alt="MLK in front of microphones" style="width:1100px;height:550px;">
+        </div>
+        <div class="carousel-item">
+            <img src="images/mlk flag.jpg" alt="MLK in front of the American flag" style="width:1100px;height:550px;">
+        </div>
+        <div class="carousel-item">
+            <img src="images/mlk silhouette.jpg" alt="MLK's silhouette" style="width:1100px;height:550px;">
+        </div>
+        <div class="carousel-item">
+          <img src="images/mlk dark bg.png" alt="MLK against a black background" style="width:1100px;height:550px;">
+        </div>
+        
+          <a class="carousel-control-prev" href="#caro" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#caro" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+
+      </div>
+    </div>
+    
+    <div class="container-fluid padding">
+      <h3 class="center">Influencers</h3>
+        <div class="card-deck clearfix">
+          
+          <div class="card bg-light">
+            <img class="card-img-top" src="images/gandhi.jpg" alt="Gandhi" style="height:475px;width:611px;">
+            <div class="card-body">
+              <h4 class="card-title">Mahatma Gandhi</h4>
+              <p class="card-text">Martin Luther King, Jr. got his philosophy of nonviolent civil disobedience from Gandhi.</p>
+            </div>
+          </div>
+          
+          <div class="card bg-light">
+            <img class="card-img-top" src="images/mlk sr.jpg" alt="MLK, Sr." style="height:475px;width:611px;">
+            <div class="card-body">
+              <h4 class="card-title">Martin Luther King, Sr.</h4>
+              <p class="card-text">Martin Luther King, Sr. instilled a strong sense of religion in his son.</p>
+            </div>
+          </div>
+          
+          <div class="card bg-light">
+            <img class="card-img-top" src="images/benjamin mays.jpg" alt="Benjamin Mays." style="height:475px;width:600px;">
+            <div class="card-body">
+              <h4 class="card-title">Benjamin E. Mays</h4>
+              <p class="card-text">Benjamin E. Mays was president of the college MLK, Jr. studied at. MLK, Jr. says that Mays influenced him politically and socially.</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+  <div class="row">
+    <div class="column left">
+      <h2>Why Martin Luther King, Jr. is Famous</h2>
+      <p class="pt"> Martin Luther King, Jr. was a leading activist in the Civil Rights Movement. His most notable event is the March On Washington where he delivered his "I Have a Dream" speech</p>
+    </div>
+    <div class="column right">
+      <img src="images/m.o.w..jpg" >
+    </div>
+  </div>
+    
+  </body>
+</html>
